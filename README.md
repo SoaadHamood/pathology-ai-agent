@@ -2,6 +2,12 @@
 
 Three notebooks on deep learning for whole-slide pathology images. Each one builds on the one before: a simple baseline, a harder genomic prediction task, and finally an agent that reviews a slide the way a pathologist does and shows its evidence instead of just giving an answer.
 
+## Kaggle notebooks
+
+- Prostate baseline: https://www.kaggle.com/code/soaadhamood34/01-prostate-baseline-mil
+- Lung EGFR: https://www.kaggle.com/code/soaadhamood34/02-lung-egfr-gated-attention
+- EGFR review assistant: https://www.kaggle.com/code/soaadhamood34/03-egfr-review-assistant
+- 
 | # | Notebook | What it does | Main result |
 |---|---|---|---|
 | 1 | [Prostate baseline](01-prostate-baseline-mil.ipynb) ([run on Kaggle](https://www.kaggle.com/code/soaadhamood34/01-prostate-baseline-mil)) | Predicts clinically significant prostate cancer (ISUP 2 or higher) from 300 PANDA slides with a simple max-pooling MIL model | AUROC 0.79 (95% CI 0.73 to 0.83); 0.72 and 0.63 when tested on the other hospital |
